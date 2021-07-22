@@ -1,0 +1,68 @@
+{
+    "name": "@gi-types/base-types",
+    "publishConfig": {
+        "access": "public",
+        "tag": "latest"
+    },
+    "version": "1.0.0",
+    "description": "TypeScript definitions for the base GI imports",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Evan Welsh",
+            "url": "https://gitlab.gnome.org/ewlsh/",
+            "githubUsername": "ewlsh"
+        }
+    ],
+    "main": "",
+    "files": [
+        "index.d.ts",
+        "package.json",
+        "README.md",
+        "LICENSE"
+    ],
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gi-ts/packs.git"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@gi-types/accountsservice1": "^1.0.0",
+        "@gi-types/atk1": "*",
+        "@gi-types/atspi2": "*",
+        "@gi-types/cairo1": "*",
+        "@gi-types/dbus1": "*",
+        "@gi-types/gck1": "*",
+        "@gi-types/gcr3": "*",
+        "@gi-types/gdkpixbuf2": "*",
+        "@gi-types/gdm1": "*",
+        "@gi-types/geoclue2": "*",
+        "@gi-types/gio2": "*",
+        "@gi-types/girepository2": "^1.68.0",
+        "@gi-types/glib2": "*",
+        "@gi-types/gmodule2": "*",
+        "@gi-types/gobject2": "*",
+        "@gi-types/harfbuzz2": "*",
+        "@gi-types/ibus1": "*",
+        "@gi-types/json1": "*",
+        "@gi-types/malcontent0": "*",
+        "@gi-types/modemmanager1": "*",
+        "@gi-types/nm1": "*",
+        "@gi-types/notify0": "*",
+        "@gi-types/pango1": "*",
+        "@gi-types/polkit1": "*",
+        "@gi-types/polkitagent1": "*",
+        "@gi-types/rsvg2": "*",
+        "@gi-types/soup2": "*",
+        "@gi-types/telepathyglib0": "*",
+        "@gi-types/telepathylogger0": "*",
+        "@gi-types/upowerglib1": "*",
+        "@gi-types/xlib2": "*"
+    },
+    "typeScriptVersion": "4.1",
+    "gitHead": null,
+    "devDependencies": {}
+}
